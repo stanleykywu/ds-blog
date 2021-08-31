@@ -17,7 +17,7 @@ I'm a current Computer Science major @ Northeastern University with a concentrat
 - Discussing Academic Papers (An Image is Worth 16x16 Words anyone?)
 - Video Games
 
-While I was writing this, I thought it might be more fun to have reading this be like having a conversation with me in real life. That way, it's more fun for me to write and hopefully more fun for you to read! I love badminton, been playing since I was a kid (subtle flex but I was once top 20 in the Under 17 Category for Singles in the USA!). Here's a picture of me in the college badminton tournament. 
+While I was writing this, I thought it might be more fun to write like a conversation. That way, it's more fun for me and hopefully more fun for you to read! Diving right into my hobbies, I love badminton, been playing since I was a kid (subtle flex but I was once top 20 in the Under 17 Category for Singles in the USA!). Here's a picture of me in the college badminton tournament. 
 
 ![alt text](images/badminton_small.jpg)
 
