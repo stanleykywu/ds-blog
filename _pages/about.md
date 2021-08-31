@@ -12,7 +12,7 @@ I'm a current Computer Science major @ Northeastern University with a concentrat
 ### Hobbies:
 - Badminton
 - Classical Music
-- Any Boston sport (Go Red Sox and Patriots!)
+- Boston Sports (Go Red Sox and Patriots!)
 - Hiking 
 - Discussing Academic Papers (An Image is Worth 16x16 Words anyone?)
 - Video Games
