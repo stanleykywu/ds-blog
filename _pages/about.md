@@ -22,7 +22,7 @@ While I was writing this, I thought it might be cool to write like a conversatio
 ![alt text](images/badminton_small.jpg)
 
 
-I also played the violin in high school, where I got very interested in classical music. Nothing beats playing with an orchestras at Symphony Hall! Some of my favorite composers are Mahler, Beethoven, and Dvorak. Recently, I've also realized just how fun and amazing hiking is. Below is a picture of me at Mount Monadnock!
+I also played the violin in high school, where I got very interested in classical music. Nothing beats playing with an orchestra at Symphony Hall! Some of my favorite composers are Mahler, Beethoven, and Dvorak. Recently, I've also realized just how fun and amazing hiking is. Below is a picture of me at Mount Monadnock!
 
 
 ![alt text](images/monadnock_small.jpg)
