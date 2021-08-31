@@ -39,6 +39,7 @@ baseurl: "/ds-blog" # the subpath of your site, e.g. "/blog".
 # Github and twitter are optional:
 minima:
   social_links:
+    email: wu.sta@northeastern.edu
     linkedin: stanleykywu
     github: stanleykywu
 
