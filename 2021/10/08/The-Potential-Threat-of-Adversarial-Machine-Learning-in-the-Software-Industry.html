@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>The Potential Threat Of Adversarial Machine Learning In The Software Industry | An Attempt at Blogging with a Data Science Twist</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="The Potential Threat Of Adversarial Machine Learning In The Software Industry" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="The Potential Threat of Adversarial Machine Learning in the Software Industry" />
+<meta property="og:description" content="The Potential Threat of Adversarial Machine Learning in the Software Industry" />
+<link rel="canonical" href="https://stanleykywu.github.io/ds-blog/2021/10/08/The-Potential-Threat-of-Adversarial-Machine-Learning-in-the-Software-Industry.html" />
+<meta property="og:url" content="https://stanleykywu.github.io/ds-blog/2021/10/08/The-Potential-Threat-of-Adversarial-Machine-Learning-in-the-Software-Industry.html" />
+<meta property="og:site_name" content="An Attempt at Blogging with a Data Science Twist" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-10-08T00:00:00-05:00" />
+<script type="application/ld+json">
+{"description":"The Potential Threat of Adversarial Machine Learning in the Software Industry","url":"https://stanleykywu.github.io/ds-blog/2021/10/08/The-Potential-Threat-of-Adversarial-Machine-Learning-in-the-Software-Industry.html","@type":"BlogPosting","headline":"The Potential Threat Of Adversarial Machine Learning In The Software Industry","dateModified":"2021-10-08T00:00:00-05:00","datePublished":"2021-10-08T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://stanleykywu.github.io/ds-blog/2021/10/08/The-Potential-Threat-of-Adversarial-Machine-Learning-in-the-Software-Industry.html"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/ds-blog/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://stanleykywu.github.io/ds-blog/feed.xml" title="An Attempt at Blogging with a Data Science Twist" /><link rel="shortcut icon" type="image/x-icon" href="/ds-blog/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/ds-blog/">An Attempt at Blogging with a Data Science Twist</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/ds-blog/about/">About Me</a><a class="page-link" href="/ds-blog/search/">Search</a><a class="page-link" href="/ds-blog/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">The Potential Threat Of Adversarial Machine Learning In The Software Industry</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-10-08T00:00:00-05:00" itemprop="datePublished">
+        Oct 8, 2021
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      10 min read
+    
+</span></p>
+
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p><strong>The Potential Threat of Adversarial Machine Learning in the Software Industry</strong></p>
+
+<p><strong>Question:</strong> Given machine learning’s rapid incorporation into technology in the last ten years, does adversarial machine learning (maliciously attacking machine learning models to influence performance) pose a threat to the software development industry?</p>
+
+<p><strong>Purpose:</strong> To explore state of the art research and applications of adversarial machine learning and identify whether companies that depend/use machine learning are adequately prepared to protect their machine learning models against such attacks.</p>
+
+<p>Machine learning has quickly become a popular “buzzword” for companies seeking to update their technology stacks with the state of the art. Yet unlike more traditional technology frameworks such as web development, and mobile app development … etc., that are mostly deterministic and easily tested, machine learning throws a wrench into what’s considered traditional software development. Machine learning is a flexible algorithm that learns and identifies patterns in datasets to automate decision making. Examples of machine learning applications include computer vision and natural language processing. Tesla’s autopilot feature uses computer vision, or CV for short, to analyze images of the road and tell the vehicle what to do, and there are many online chatbots that use natural language processing, or NLP, to respond to text queries. Flexibility is the greatest strength of machine learning, as well as its most dangerous feature. These models are prone to outside influence, which can cause harm when dealing with sensitive information. However this problem has not slipped under the noses of machine learning researchers. Between 2017 and 2019, there have been over 200 written papers on the potential pitfalls and failures of machine learning when attacked by an adversary (Marshall et al., 2018). Since academic research on attacking machine learning models, or adversarial machine learning, continues to be a focal point of machine learning and security research, the threat it poses to software development is also ever evolving.</p>
+
+<p><strong>Adversarial Example Attacks</strong></p>
+
+<p>Adversarial example attacks can cause machine learning models to make wrong decisions by slightly altering the input to the algorithm. Tesla’s self-driving car has been shown to fall prey to such adversarial examples when its Autopilot ECU, or electronic control unit, is compromised by an adversary (Tencent Keen Security Lab, 2019). These CV models take images as input, and evaluate the pixels before making a prediction on the corresponding image. Adversarial example attacks add specific perturbations to these images in order to fool the machine learning model to make a mistake in its prediction (Goodfellow, 2020). In extensive security research of the Tesla autopilot system, Tencent was able to successfully trick the computer vision modules of the windshield wiper and lane detection algorithms using adversarial examples. The research group successfully manipulated the fish eye camera image input, causing the CV algorithm to believe it was raining even when the image had no visible precipitation (Tencent Keen Security Lab, 2019). These researchers were also able to manipulate camera images of lanes and cause the CV algorithm to miss lane markings. However they concluded that this would be difficult to deploy, citing the robustness of the CV algorithm likely due to a very extensive training dataset (Tencent Keen Security Lab, 2019). Tencent’s attempt to use adversarial examples to manipulate Tesla’s autopilot was shown to be successful in precipitation detection, and less successful in lane detection, yet both offer insight into the potential threat and implications of adversarial attacks in a modern software setting.</p>
+
+<p>Adversarial examples of CV models are not limited to perturbation of input images. A paper authored by researchers from Carnegie Mellon University and University of North Carolina show that it is possible to physically alter an individual’s appearance (in this case, with specialized glasses), to fool a CV model’s facial recognition algorithm (Sharif et al., 2017). This can present itself as a dangerous problem, especially when facial recognition is used for security purposes such as with air travel (Sharif et al., 2017). This attack does not require the same access to the models as with Tesla’s autopilot, instead introducing the possibility of fooling these computer vision models with physically created perturbations. Regardless, both cases of adversarial example attacks show that it is possible to manipulate computer vision models, which are commonly used in the software industry, by feeding intentionally perturbed examples to confuse the algorithms and lead them to make wrong predictions.</p>
+
+<p><strong>Poisoning Attacks</strong></p>
+
+<p>Poisoning attacks are a different kind of adversarial machine learning attack that has also shown to influence common machine learning models. This attack provides a model in training with data that is purposefully not indicative of the actual distribution, causing the model to make inaccurate predictions. Unlike adversarial example attacks, this approach is more theoretical, but still demonstrates how commonly used machine learning algorithms can be heavily influenced by adversaries with the right knowledge of how to do so. Researchers from the University of California, San Diego, were able to theoretically and experimentally show that a constantly updated machine learning model can be influenced over time by injecting specially designed malicious data points. This includes flipped labels of digit classification and slightly modifying data points that the model struggles the most with (Wang &amp; Chaudhuri, 2018). While this paper’s argument focuses on mathematical and theoretical arguments with some empirical results, it does not address the concern it raises in an industry setting, instead indicating more research is needed to investigate the potential vulnerabilities of such an attack.</p>
+
+<p>The adversarial machine learning field is littered with theoretical papers, but the effects of a poisoning attack have also been seen in an industry setting. Microsoft’s Tay Chatbot was released in 2017, designed to learn and perform online interactions through Twitter tweets (MITRE Corporation, n.d.). However, internet trolls quickly realized that they could influence the Chatbot’s learning dataset by posting inappropriate comments, poisoning the dataset that the machine learning model trained from. In less than a day, the product had to be taken down as its tweets had become racist and offensive (MITRE Corporation, n.d.). This real life example demonstrates that poisoning attacks are not academically bound, but a threat that can be taken advantage of in a deployed software product.</p>
+
+<p><strong>Current Industry Stance</strong></p>
+
+<p>Current literature on adversarial machine learning suggests that under ideal conditions, these algorithms can potentially fall prey to adversaries with malicious intent, but the perspective from software companies garners more mixed opinions. While tech giants such as Google, Microsoft, and IBM have pushed forward plans to protect their machine learning use cases, many companies that use machine learning have unclear or no commitment at all to defend against adversarial attacks (Kumar et al., 2020). In a survey paper conducted by Microsoft, 28 organizations were interviewed about their perspectives on machine learning security, out of which only three actively secure their ML systems, and six are ready to assign manpower to the task (Kumar et al., 2020). These interviews demonstrated to the researchers that ML engineers are ill-equipped to deal with adversarial attacks, with reasons ranging from overtrust in current ML frameworks, limited understanding of ML in general, and not knowing what to expect from adversarial attacks (Kumar et al., 2020). Regardless of if adversarial attacks can be successfully used to manipulate machine learning models, this research survey suggests that most machine learning engineers in the software industry are not prepared for the potential threat against their models.</p>
+
+<p>While adversarial machine learning research seems to put priority on the exposure of machine learning models, larger software companies such as Google and Microsoft have begun creating detailed guidelines for good machine learning practices. Microsoft’s AI and ML security documentation includes frameworks for engineers to assess the possibility of adversarial attack while also providing them with detailed plans to combat such attacks (Marshall et al., 2018). Google’s page for Responsible AI Practices also lists recommended practices for ensuring secure models, and encouraging adversarial testing to identify areas where maliciously crafted inputs can harm model outputs (Google, n.d.). While both documents provide concrete steps to follow in ensuring model security from adversarial attacks, both documents also acknowledge the ever changing nature of machine learning, and emphasize that the defense against adversarial attacks still has additional areas of research and growth. These documents indicate that to those prepared, adversarial attacks are not threats with no countermeasures, but a possibility that requires diligent research and preparation.</p>
+
+<p>These large companies may be beginning to treat adversarial machine learning as a real threat, but a machine learning researcher of Google Brain gives another point of view from a software perspective. Nicholas Frosst recognizes the current research on adversarial machine learning, but also suggests that the results from such may be due to the natural behavior of modern machine learning, and that there are much easier ways to fool a model (Synced, 2019). Frosst believes that these models are not designed to make correct predictions on every possible kind of input, and creating perturbed images to fool self-driving cars is much harder than physically removing the stop sign the algorithm is trying to analyze (Synced, 2019). Academic researchers have certainly picked at the topic of adversarial machine learning both theoretically and experimentally, but many seem to agree that the field still has a lot to be explored before it is labeled as a legitimate threat to the software industry.</p>
+
+<p><strong>Conclusion</strong></p>
+
+<p>Machine learning is a field that is growing at a rapid pace, which means adversarial machine learning, or maliciously attacking machine learning models, will evolve at a similarly rapid speed. Even in the last couple of years, there have been hundreds of papers that have exposed weaknesses in machine learning models, using both theoretical and experimental arguments. Academia is pushing the exploration of adversarial attacks as a real threat, but it does not appear to be academically bounded. There have also been cases of adversarial attacks successfully infiltrating models in the software industry, such as Tesla’s autopilot and Microsoft’s Tay Chatbot. A research survey on companies with significant usage of machine learning shows that while engineers seem to agree on the principle of facing adversarial machine learning, most are not equipped with the knowledge to deal with such attacks, and some question the threat they even pose. Adversarial machine learning may be part of an ever growing and ever evolving field, but tech giants like Google and Microsoft show that with the mindset and willingness to embrace academic research with new guidelines, machine learning algorithms can potentially be safe from adversarial attacks.</p>
+
+<p><strong>References</strong></p>
+
+<blockquote>
+  <p>Goodfellow, I., Clark, J., Abbeel, P., Duan, R., Huang, S., &amp; Papernot, N. (2017, February 24). <em>Attacking Machine Learning with Adversarial Examples</em>. OpenAI. Retrieved October 2, 2021, from https://openai.com/blog/adversarial-example-research/.</p>
+
+  <p>Google. (n.d.). <em>Responsible AI practices</em>. Google AI. Retrieved October 2, 2021, from https://ai.google/responsibilities/responsible-ai-practices/.</p>
+
+  <p>Kumar R. S. S., Nyström M., Lambert J., Marshall A., Goertzel M., Comissoneru A., Swann M., &amp; Xia S. (2020, May). Adversarial machine learning-industry perspectives. In 2020 IEEE Security and Privacy Workshops (SPW) (pp. 69-75). IEEE.</p>
+
+  <p>Marshall, A., Rojas, R., Stokes, J., &amp; Brinkman, D. (2018, December 4). <em>Securing the Future of Artificial Intelligence and Machine Learning at Microsoft</em>. Microsoft Docs. Retrieved October 2, 2021, from https://docs.microsoft.com/en-us/security/engineering/securing-artificial-intelligence-machine-learning.</p>
+
+  <p>MITRE Corporation. (n.d.). <em>Tay Poisoning</em>. MITRE. Retrieved October 2, 2021, from https://atlas.mitre.org/studies/AML.CS0009/.</p>
+
+  <p>Sharif, M., Bhagavatula, S., Bauer, L., &amp; Reiter, M. K. (2017). Adversarial generative nets: Neural network attacks on state-of-the-art face recognition. arXiv preprint arXiv:1801.00349, 2(3).</p>
+
+  <p>Synced. (2019, November 21). <em>Google Brain’s Nicholas Frosst on Adversarial Examples and Emotional Responses</em>. Synced. Retrieved October 7, 2021, from https://syncedreview.com/2019/11/21/google-brains-nicholas-frosst-on-adversarial-examples-and-emotional-responses/.</p>
+
+  <p>Tencent Keen Security Lab. (2019). Experimental Security Research of Tesla Autopilot [White paper]. Tencent. https://keenlab.tencent.com/en/whitepapers/Experimental_Security_Research_of_Tesla_Autopilot.pdf</p>
+
+  <p>Wang, Y., &amp; Chaudhuri, K. (2018). Data poisoning attacks against online learning. arXiv preprint arXiv:1808.08994.</p>
+</blockquote>
+
+  </div><a class="u-url" href="/ds-blog/2021/10/08/The-Potential-Threat-of-Adversarial-Machine-Learning-in-the-Software-Industry.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/ds-blog/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/ds-blog/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/ds-blog/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Hello! You found a secret description :D Fun fact I&#39;m a huge weeb!</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/stanleykywu" title="stanleykywu"><svg class="svg-icon grey"><use xlink:href="/ds-blog/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://www.linkedin.com/in/stanleykywu" title="stanleykywu"><svg class="svg-icon grey"><use xlink:href="/ds-blog/assets/minima-social-icons.svg#linkedin"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
