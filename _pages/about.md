@@ -11,6 +11,8 @@ I'm a current Computer Science major @ Northeastern University with a concentrat
 
 ![alt text](images/0001.jpg)
 
+[Resume_Stanley_Wu.pdf](https://github.com/stanleykywu/ds-blog/files/7664069/Resume_Stanley_Wu.pdf)
+
 ### Hobbies:
 - Badminton
 - Classical Music
