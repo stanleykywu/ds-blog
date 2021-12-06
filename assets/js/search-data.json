@@ -3,7 +3,7 @@
     
         "post0": {
             "title": "A Day in the Life of a Computer Science Researcher ft. Matthew Jagielski",
-            "content": "from IPython.display import Audio from IPython.core.display import display display(Audio(&#39;Adversarial ML Research Podcast feat. Matthew Jagielski.mp3&#39;)) . Your browser does not support the audio element.",
+            "content": "Your browser does not support the audio element.",
             "url": "https://stanleykywu.github.io/ds-blog/2021/12/05/Day-in-the-Life-of-a-Computer-Science-Researcher-ft.-Matthew-Jagielski.html",
             "relUrl": "/2021/12/05/Day-in-the-Life-of-a-Computer-Science-Researcher-ft.-Matthew-Jagielski.html",
             "date": " • Dec 5, 2021"
