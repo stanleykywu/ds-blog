@@ -9,7 +9,11 @@ permalink: /about/
 ### More about me
 I'm a current Computer Science major @ Northeastern University with a concentration in artificial intelligence. I aspire to be a machine learning researcher or data scientist, and I'm actively involved in adversarial machine learning research. 
 
-<embed src="Resume_Stanley_Wu.pdf" type="application/pdf">
+<object data="http://yoursite.com/the.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="http://yoursite.com/the.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="http://yoursite.com/the.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
 
 ### Hobbies:
 - Badminton
