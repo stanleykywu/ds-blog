@@ -14,6 +14,8 @@ I'm a current Computer Science major @ Northeastern University with a concentrat
 
 ![alt text](images/0001.jpg)
 
+<object data="{{ site.url }}{{ site.baseurl }}/_pages/Resume_Stanley_Wu.pdf" width="1000" height="1000" type="application/pdf"></object>
+
 
 ### Hobbies:
 - Badminton
