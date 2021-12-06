@@ -10,10 +10,6 @@ permalink: /about/
 I'm a current Computer Science major @ Northeastern University with a concentration in artificial intelligence. I aspire to be a machine learning researcher or data scientist, and I'm actively involved in adversarial machine learning research. 
 
 ### Resume
-[Resume_Stanley_Wu.pdf](https://github.com/stanleykywu/ds-blog/files/7664069/Resume_Stanley_Wu.pdf)
-
-![alt text](images/0001.jpg)
-
 <object data="{{ site.url }}{{ site.baseurl }}/_pages/Resume_Stanley_Wu.pdf" width="1000" height="1000" type="application/pdf"></object>
 
 
