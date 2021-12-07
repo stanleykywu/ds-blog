@@ -3,9 +3,10 @@ layout: page
 title: About Me
 permalink: /about/
 ---
+<div style="display: flex; justify-content: center; align-items: center;">
+    <img src="images/Stanley.Wu.small.jpg" alt="Profile of Stanley" style="border-radius: 50%;" />
+</div>
 
-
-![alt text](images/Stanley.Wu.small.jpg)
 ### More about me
 I'm a current Computer Science major @ Northeastern University with a concentration in artificial intelligence. I aspire to be a machine learning researcher or data scientist, and I'm actively involved in adversarial machine learning research. 
 
