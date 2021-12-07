@@ -4,7 +4,7 @@ title: About Me
 permalink: /about/
 ---
 <div style="display: flex; justify-content: center; align-items: center;">
-    <img src="https://github.com/stanleykywu/ds-blog/blob/master/images/Stanley.Wu.small.jpg" alt="Profile of Stanley" style="border-radius: 50%;" />
+    <img src="https://github.com/stanleykywu/ds-blog/blob/master/images/Stanley.Wu.small.jpg" style="border-radius: 50%;" />
 </div>
 
 ### More about me
